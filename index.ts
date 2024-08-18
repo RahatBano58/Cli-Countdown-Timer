@@ -1,6 +1,5 @@
 import inquirer from "inquirer";
 import {differenceInSeconds} from "date-fns";
-import { log } from "console";
 
 const res = await inquirer.prompt({
     name: "userInput",
